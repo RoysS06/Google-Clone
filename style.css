@@ -1,0 +1,183 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.nav-text:hover{
+    border-bottom: 1px solid black;
+}
+
+nav .nav-right-section .img-icon{
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    
+}
+
+nav .nav-right-section .img-icon:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+
+nav .nav-right-section .img-photo{
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+main .main-logo img{
+    width: 31rem;
+}
+
+main .main-input{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input-container{
+    width: 52.5rem;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 53rem;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: solid 0.5px rgba(0, 0, 0, 0);
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    color: #5f6368;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+}
+
+main .main-buttons button:hover{
+    border: solid 0.5px #c6c6c6;
+    box-shadow: 0 0 0.7px 0 #222;
+    color: #222;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+}
+
+footer .footer-left {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+
+footer .footer-right {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+footer ul li a{
+    margin: 1rem;
+    text-decoration: none;
+    color: #5f6368;
+}
+
